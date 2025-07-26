@@ -1,0 +1,92 @@
+html{
+    background-color: rgb(202, 186, 186);
+}
+a{
+    color: black;
+}
+#change{
+    background-color: rgb(216, 216, 164);
+}
+#first{
+    background-color: rgb(211, 193, 193);
+    height: 500px;
+    width: 1300px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: slideup 5s forwards;
+}
+@keyframes slideup {
+    0%{
+      top: -500px;
+    }
+    100%{
+     top: 0px;
+    }
+
+    
+}
+#photo{
+     height: 300px;
+     width: 1350px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: slideupp 5s forwards;
+}
+@keyframes slideupp {
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+    
+}
+#name{
+     height: 100px;
+     width: 1350px;
+     margin: 0;
+     padding: 0%;
+     font-family: 'Times New Roman';
+     position: relative;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: slideuup 5s forwards;
+}
+@keyframes slideuup {
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+    
+}
+#detail{
+     height: 970px;
+     width: 800px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     bottom: 0;
+     
+     opacity: 0;
+     animation: fadeup 20s forwards;
+}
+@keyframes fadeup {
+    to{
+        opacity: 1;
+    }
+    
+}
+
