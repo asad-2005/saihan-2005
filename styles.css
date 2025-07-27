@@ -89,5 +89,19 @@ a{
     }
     
 }
+@media(max-width:200px){
+    #first{
+        word-wrap:break-word;
+        overflow-word:break-word;
+    }
+}
+@media(max-width:200px){
+    #detail{
+        word-wrap:break-word;
+        overflow-word:break-word;
+    }
+}
+
+
 
 
