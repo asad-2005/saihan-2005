@@ -81,7 +81,7 @@ a{
      bottom: 0;
      
      opacity: 0;
-     animation: fadeup q0s forwards;
+     animation: fadeup 10s forwards;
 }
 @keyframes fadeup {
     to{
