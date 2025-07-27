@@ -15,7 +15,7 @@ a{
 #first{
     background-color: rgb(211, 193, 193);
     height: 350px;
-    width: 500px;
+    width:1500px;
     margin: 0;
     font-weight: bold;
     text-align: center;
@@ -92,13 +92,13 @@ a{
     }
     
 }
-@media(max-width:200px){
+@media(max-width:600px){
   #detail{
       word-wrap:break-word;
       overflow-wrap:break-word;
   }
 }
-@media(max-width:200px){
+@media(max-width:600px){
     #first{
         word-wrap:break-word;
         overflow-wrap:break-word;
