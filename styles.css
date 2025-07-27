@@ -11,16 +11,14 @@ a{
 }
 #first{
     background-color: rgb(211, 193, 193);
-    height: 500px;
-    width: 1300px;
+    height: 350px;
+    width: 1500px;
     margin: 0;
     font-weight: bold;
     text-align: center;
     padding: 0;
     position: relative;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     animation: slideup 5s forwards;
 }
 @keyframes slideup {
