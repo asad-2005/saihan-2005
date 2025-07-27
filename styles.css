@@ -84,7 +84,7 @@ a{
      bottom: 0;
      
      opacity: 0;
-     animation: fadeup 20s forwards;
+     animation: fadeup q0s forwards;
 }
 @keyframes fadeup {
     to{
@@ -92,13 +92,13 @@ a{
     }
     
 }
-@media(max-width:600px){
+@media(max-width:200px){
   #detail{
       word-wrap:break-word;
       overflow-wrap:break-word;
   }
 }
-@media(max-width:600px){
+@media(max-width:200px){
     #first{
         word-wrap:break-word;
         overflow-wrap:break-word;
