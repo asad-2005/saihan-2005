@@ -5,7 +5,9 @@ a{
     color: black;
 }
 #change{
-    background-color: rgb(216, 216, 164);
+    height:10px;
+    width:100px;
+    background-color:blue;
 }
 #first{
     background-color: rgb(211, 193, 193);
