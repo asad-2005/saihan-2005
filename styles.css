@@ -2,8 +2,6 @@
 html{
  background-image: url(bk.jpeg);
  background-size: cover;
- height:1500px;
- width:800px;
 }
 a{
     color: black;
@@ -119,6 +117,7 @@ a{
     width: 1000px;
     backgroundsize: cover;
 }
+
 
 
 
