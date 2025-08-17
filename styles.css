@@ -1,5 +1,7 @@
+
 html{
-    background-color: rgb(202, 186, 186);
+ background-image: url(bk.jpeg);
+ background-size: cover;
 }
 a{
     color: black;
@@ -10,13 +12,7 @@ a{
     background-color:blue;
 }
 #first{
-    background-color: rgb(211, 193, 193);
-    height: 350px;
-    width:500px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-    padding: 0;
+    
     position: relative;
     bottom: 0;
     animation: slideup 5s forwards;
@@ -33,13 +29,12 @@ a{
 }
 #photo{
      height: 300px;
-     width: 1350px;
+     width: 300px;
      margin: 0;
      padding: 0;
      position: relative;
      bottom: 0;
-     left: 50%;
-     transform: translateX(-50%);
+     
      animation: slideupp 5s forwards;
 }
 @keyframes slideupp {
@@ -53,14 +48,13 @@ a{
 }
 #name{
      height: 100px;
-     width: 1350px;
+     width: 300px;
      margin: 0;
      padding: 0%;
      font-family: 'Times New Roman';
      position: relative;
      bottom: 0;
-     left: 50%;
-     transform: translateX(-50%);
+     
      animation: slideuup 5s forwards;
 }
 @keyframes slideuup {
@@ -73,8 +67,8 @@ a{
     
 }
 #detail{
-     height: 970px;
-     width: 800px;
+     height: 580px;
+     width: 1350px;
      margin: 0;
      padding: 0;
      position: relative;
@@ -92,16 +86,43 @@ a{
 @media(max-width:200px){
     #first{
         word-wrap:break-word;
-        overflow-word:break-word;
     }
 }
 @media(max-width:200px){
     #detail{
         word-wrap:break-word;
-        overflow-word:break-word;
     }
 }
+#exit{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(206, 206, 194);
 
+}
+#size{
+    text-align: center;
+}
+#clock{
+    height: 20px;
+    width: 800px;
+    text-align: left;
+}
+#line{
+    display: inline;
+}
 
-
-
+a{
+    text-decoration: none;
+}
+#white1{
+    background-color: aliceblue;
+}
+#white2{
+    background-color: aliceblue;
+}
+#space{
+    height: 50px;
+}
+#rlspace{
+    width: 1300px;
+}
