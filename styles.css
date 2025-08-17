@@ -3,7 +3,7 @@ html{
  background-image: url(bk.jpeg);
  background-size: cover;
  height:1500px;
- width:800px;
+ width:400px;
 }
 a{
     color: black;
@@ -118,6 +118,7 @@ a{
   
     backgroundsize: cover;
 }
+
 
 
 
