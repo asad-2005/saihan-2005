@@ -95,7 +95,7 @@ a{
 }
 #clock{
     height: 20px;
-    width: 800px;
+    width: 0px;
     text-align: left;
 }
 
@@ -118,6 +118,7 @@ a{
   
     backgroundsize: cover;
 }
+
 
 
 
