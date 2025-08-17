@@ -83,16 +83,6 @@ a{
     }
     
 }
-@media(max-width:200px){
-    #first{
-        word-wrap:break-word;
-    }
-}
-@media(max-width:200px){
-    #detail{
-        word-wrap:break-word;
-    }
-}
 #exit{
     height: 50px;
     width: 150px;
@@ -131,4 +121,5 @@ a{
     width: 1000px;
     backgroundsize: cover;
 }
+
 
