@@ -97,9 +97,6 @@ a{
     width: 800px;
     text-align: left;
 }
-#line{
-    display: inline;
-}
 
 a{
     text-decoration: none;
@@ -121,5 +118,6 @@ a{
     width: 1000px;
     backgroundsize: cover;
 }
+
 
 
