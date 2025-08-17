@@ -112,12 +112,13 @@ a{
     height: 50px;
 }
 #rlspace{
-    width: 1300px;
+    width: 0px;
 }
 #second{
   
     backgroundsize: cover;
 }
+
 
 
 
