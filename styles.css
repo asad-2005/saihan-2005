@@ -69,8 +69,7 @@ a{
     
 }
 #detail{
-     height: 580px;
-     width: 1350px;
+    
      margin: 0;
      padding: 0;
      position: relative;
@@ -120,6 +119,7 @@ a{
     width: 1000px;
     backgroundsize: cover;
 }
+
 
 
 
