@@ -8,4 +8,5 @@ function showdate(){
     document.getElementById("clock").innerHTML=date+""+time;
     setInterval(showdate,1000);
     showdate();
+    console.log(date,time);
 }
