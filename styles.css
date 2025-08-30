@@ -95,8 +95,9 @@ a{
 }
 #clock{
     height: 20px;
-    width:100%;
-    text-align: left;
+    width:100px;
+    text-align: right;
+    background-color:white
 }
 
 a{
@@ -123,6 +124,7 @@ a{
 #aephoto{
     width:100%;
 }
+
 
 
 
